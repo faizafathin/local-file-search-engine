@@ -21,7 +21,6 @@ A lightweight Python-based desktop search engine that allows users to search thr
 
 ## 📦 Installation
 
-```bash
 # Clone the repo
 git clone https://github.com/faizafathin/local-file-search-engine.git
 cd local-file-search-engine
@@ -37,18 +36,12 @@ pip install -r requirements.txt
 
 ## 🚀 How to Use
 
-bash
-Copy
-Edit
 python indexer.py   # To index all files
 python main.py      # To open the GUI and search
 
 
 ## 📁 Folder Structure
 
-css
-Copy
-Edit
 file_search_engine/
 ├── indexer.py
 ├── main.py
@@ -57,7 +50,7 @@ file_search_engine/
 ├── README.md
 └── data/
 
-**## 👩‍💻 Author**
+## 👩‍💻 Author
 
 **Faiza Fathin**  
 M.Sc. Bioinformatics | Python Developer | Linux Enthusiast  
