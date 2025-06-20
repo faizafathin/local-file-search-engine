@@ -1,0 +1,6 @@
+whoosh
+pytesseract
+pdfminer.six
+python-docx
+pillow
+tk
