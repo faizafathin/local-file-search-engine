@@ -81,6 +81,13 @@ file_search_engine/
 ├── README.md
 └── data/
 ```
+---
+
+## 🖼️ Demo
+
+Below is a preview of the Local File Search Engine GUI:
+
+![App Screenshot](https://github.com/faizafathin/local-file-search-engine/blob/main/file-search-engine.png?raw=true)
 
 ---
 
