@@ -1,44 +1,60 @@
 # 🧠 Local File Search Engine with OCR and GUI
 
-A lightweight Python-based desktop search engine that allows users to search through local `.pdf`, `.docx`, and `.txt` files using natural language queries. It uses OCR (Optical Character Recognition) to index scanned documents and provides a simple GUI to make searching seamless.
+A lightweight Python-based desktop search engine that allows users to search through local documents (PDF, DOCX, TXT) — including scanned documents using OCR — with a user-friendly Tkinter-based GUI.
+
+---
 
 ## ✨ Features
 
-- 🔍 Full-text search of local files
-- 📂 Supports PDF, Word (.docx), and plain text files
-- 🧾 OCR support for scanned documents (PDF/Image-based)
-- 🖼️ GUI built with Tkinter for easy usage
-- ⚡ Fast indexing using Whoosh
+- 🔍 Full-text search of local files  
+- 📂 Supports PDF, Word (.docx), and plain text files  
+- 🧾 OCR support for scanned documents (PDF/Image-based)  
+- 🖼️ GUI built with Tkinter for easy usage  
+- ⚡ Fast indexing using Whoosh  
+
+---
 
 ## 🛠️ Tech Stack
 
-- Python 3
-- Whoosh
-- PyMuPDF (fitz)
-- python-docx
-- pytesseract
-- Tkinter
+- Python 3  
+- [Whoosh](https://pypi.org/project/Whoosh/)  
+- [PyMuPDF (fitz)](https://pypi.org/project/PyMuPDF/)  
+- [python-docx](https://pypi.org/project/python-docx/)  
+- [pytesseract](https://pypi.org/project/pytesseract/)  
+- [Tkinter](https://wiki.python.org/moin/TkInter)
+
+---
 
 ## 📦 Installation
 
-# Clone the repo
+### 📥 Clone the repo
+
+```bash
 git clone https://github.com/faizafathin/local-file-search-engine.git
 cd local-file-search-engine
 
-# Create virtual environment
-python3 -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+## 🐍 Create virtual environment
 
-# Install dependencies
+python3 -m venv venv
+
+# For Linux/macOS:
+source venv/bin/activate
+
+# For Windows:
+venv\Scripts\activate
+
+## 📦 Install dependencies
+
 pip install -r requirements.txt
 
 
 ## 🚀 How to Use
 
-python indexer.py   # To index all files
-python main.py      # To open the GUI and search
+# Step 1: Index all files
+python indexer.py
 
+# Step 2: Launch the GUI
+python main.py
 
 ## 📁 Folder Structure
 
@@ -51,7 +67,6 @@ file_search_engine/
 └── data/
 
 ## 👩‍💻 Author
-
-**Faiza Fathin**  
-M.Sc. Bioinformatics | Python Developer | Linux Enthusiast  
-🔗 [GitHub](https://github.com/faizafathin) 
+Faiza Fathin
+M.Sc. Bioinformatics | Python Developer | Linux Enthusiast
+🔗 GitHub
