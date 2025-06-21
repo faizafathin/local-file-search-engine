@@ -32,6 +32,7 @@ A lightweight Python-based desktop search engine that allows users to search thr
 ```bash
 git clone https://github.com/faizafathin/local-file-search-engine.git
 cd local-file-search-engine
+'''
 
 ## 🐍 Create virtual environment
 
